@@ -1,0 +1,67 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    font-family: 'Ikka Rounded', sans-serif;
+}
+
+body * {
+    box-sizing: border-box
+}
+
+.generate {
+    border-radius: 10px;
+    border: 2px black solid;
+    width: auto;
+    flex-direction: column;
+    display: inline-block;
+    height: auto;
+}
+.generate {
+    background:white;
+    padding: 100px;
+}
+
+.form {
+    display: flex;
+}
+
+.form * {
+    margin: 10px;
+}
+
+.generate > a {
+    font-size: small;
+    text-decoration: none;
+}
+
+.form>button:hover {
+    color: black;
+    background: transparent;
+}
+.form > input{
+    padding-left: 5px;
+}
+.form>input {
+
+    outline: none;
+    border: 2px black solid;
+    border-radius: 5px;
+    height: 45px;
+    width: 100%;
+
+}
+
+.form>button {
+    color: white;
+    outline: none;
+    height: 45px;
+    width: 50%;
+    border: 2px rgb(0, 208, 255) solid;
+    background: rgb(0, 208, 255);
+    border-radius: 5px;
+    cursor: pointer;
+}
